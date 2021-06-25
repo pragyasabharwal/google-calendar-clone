@@ -1,0 +1,31 @@
+.calendar {
+    max-width: 50em;
+    box-sizing: border-box;
+}
+
+.day {
+    position: relative;
+    width: calc(100% / 7);
+    display: inline-block;
+    background-color: white;
+    padding: 3em;
+    margin: 0;
+    height: 44px;
+    box-sizing: border-box;
+    z-index: 1;
+    text-align: center;
+}
+
+.current {
+    background-color: rgba(71, 121, 230, 0.336);
+    cursor: pointer;
+    padding-left: 0.7em;
+    padding-right: 1.6em;
+}
+
+.hover:hover {
+    background-color: rgba(128, 128, 128, 0.322);
+    cursor: pointer;
+    padding-left: 0.7em;
+    padding-right: 1.6em;
+}

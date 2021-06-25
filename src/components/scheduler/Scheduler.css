@@ -1,0 +1,85 @@
+.modal-1 {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30vh;
+    left: 30vw;
+    background-color: white;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 20%);
+    ;
+    max-width: 20em;
+    padding: 2em;
+    height: 20em;
+  }
+  
+  .title {
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 255, 0.562);
+    outline: none;
+    font-size: 1.5em
+  }
+  
+  .button-primary {
+    width: 5em;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    font-weight: 800;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    font-weight: 600;
+  
+  }
+  
+  .add-details {
+    max-width: 20em;
+    margin-top: 1em;
+    padding: 1em 0em;
+    font-size: 1.2em;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+  }
+  
+  .button-secondary {
+    padding: 0.4em 0.2em;
+    width: 2em;
+    position: absolute;
+    font-weight: 900;
+    right: 1em;
+    top: 1em;
+    background-color: #235fe0 !important;
+  }
+  
+  .time-slots{
+    margin-top: 10em;
+    margin-left: 4em;
+  }
+  .time-format{
+    position: absolute;
+    left: 17em;
+    margin-top: -0.5em;
+  }
+
+.week-days{
+  font-size: large;
+  margin-left: 3em;
+  border-right: 1px solid rgba(128, 128, 128, 0.247);
+  width: 4em;
+  height: 91em;
+
+}
+
+
+.column {
+  height: 0em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-right: 55.2em;
+  border-top: 1px solid rgba(128, 128, 128, 0.247);
+  border-left: 1px solid rgba(128, 128, 128, 0.247);
+}

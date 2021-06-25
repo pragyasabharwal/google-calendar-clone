@@ -1,0 +1,21 @@
+
+
+.filter-modal{
+    position: fixed;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 20%);
+    background-color: white;
+    text-align: left;
+    font-weight: 900;
+    top: 35em;
+    left: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 13em;
+
+    
+}
+
+.input-row{
+    display: flex;
+    padding: 1em;
+}

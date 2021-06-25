@@ -1,0 +1,62 @@
+.nav {
+    display: flex;
+    background-color: white;
+    z-index: 2;
+
+}
+
+.main-title {
+    margin-left: 1em;
+    margin-top: 1.5em;
+}
+
+.current-details {
+    margin-left: 2.5em;
+    padding-top: 1em;
+}
+
+.today-btn{
+    position: absolute;
+    top: 2em;
+    left: 22em;
+    font-size: 0.6em;
+    height: 3em;
+    border-radius: 0.2em;
+}
+
+.button-day {
+    position: absolute;
+    top: 2em;
+    left: 46em;
+    font-size: 0.6em;
+    height: 3em;
+    border-radius: 0.2em;
+}
+
+.view-modal {
+    box-shadow: 0 3px 20px rgb(0 0 0 / 20%);
+    position: absolute;
+    top: 5em;
+    left: 45em;
+    background-color: white;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 900;
+    z-index: 9999;
+
+}
+
+.wrapper {
+    position: relative;
+}
+
+.li-item {
+    padding-top: 1em;
+    padding-left: 1.5em;
+    padding-right: 2.5em;
+    height: 2em;
+}
+
+.li-item:hover{
+    background-color: rgba(128, 128, 128, 0.226);
+}
